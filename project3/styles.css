@@ -13,7 +13,7 @@ body {
     display: block;
     margin: 0 auto;
     color: white;
-    padding: 80px;
+    padding: 48px;
 }
 .name, .heading {
     font-size: 50px;
@@ -40,6 +40,18 @@ h2{
     background-color: #E5E000;
     margin-bottom: 72px;
 }
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  text-decoration: underline;
+}
+
 .heading, p {
     font-size: 50px;
     padding-bottom: 72px;
