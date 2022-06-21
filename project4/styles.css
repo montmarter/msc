@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header, .footer {
+background-color: red;
+color: white;
+font-family: Helvetica, sans-serif;
+font-size: 20px;
+padding: 16px 20px;
+
+  }
+  .header, .cards {
+    margin-bottom: 52px;
+  }
+
+  .cards {
+    display:flex;
+    justify-content: space-between;
+
+  }
+
+  .first-card, .second-card, .third-card{
+      display: block;
+      height: 800px;
+      width: 700px;
+      min-width: 300px;
+      border: 5px solid #E5E000;
+      border-radius: 30px;
+      margin: 70px;
+  }
+  .card-title {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 32px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    padding-left: 32px;
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
